@@ -333,29 +333,29 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 1181:
+/***/ 9748:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
 
 /***/ }),
 
-/***/ 294:
+/***/ 6054:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3934));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7345))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7345));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3934))
 
 /***/ }),
 
-/***/ 6740:
+/***/ 8466:
 /***/ (() => {
 
 
@@ -973,7 +973,7 @@ var fa = __webpack_require__(4316);
 
 const Footer = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "w-full h-full bg-transparent text-gray-200 shadow-lg px-10 ",
+        className: "w-full h-full bg-transparent text-gray-200 shadow-lg",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "w-full flex flex-col items-center justify-center m-auto",
             children: [
@@ -1120,10 +1120,10 @@ function Home() {
                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(Hero, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(components_Projects, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(EmailSection, {})
+                    /*#__PURE__*/ jsx_runtime_.jsx(EmailSection, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(components_Footer, {})
                 ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Footer, {})
+            })
         ]
     });
 }
