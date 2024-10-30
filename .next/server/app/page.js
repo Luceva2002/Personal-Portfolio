@@ -345,13 +345,13 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 6054:
+/***/ 547:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7345));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3934))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3934));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594))
 
 /***/ }),
 
@@ -1114,7 +1114,7 @@ function Home() {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {}),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "container mt-24 mx-auto px-12 py-4",
+                className: "container mt-24 mx-auto px-8 py-4",
                 children: [
                     " ",
                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
