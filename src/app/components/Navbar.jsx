@@ -7,7 +7,11 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
-    title: "About",
+    title: "Home",
+    path: "#Herosection",
+  },
+  {
+    title: "About me",
     path: "#about",
   },
   {
@@ -30,7 +34,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          LUCA
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
