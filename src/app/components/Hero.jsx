@@ -15,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-5 text-xl sm:text-4xl lg:text-7xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-5 text-4xl sm:text-4xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
               Hello, I&apos;m {" "}
             </span>
@@ -67,7 +67,7 @@ const HeroSection = () => {
             <Image
               src="/hero-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
               width={300}
               height={300}
             />
