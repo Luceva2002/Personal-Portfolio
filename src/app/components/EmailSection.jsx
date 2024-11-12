@@ -44,7 +44,7 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative px-10 pt-10"
+      className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative px-10 pt-20"
     >
       <div className="">
         <h1 className="text-[40px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-6">
@@ -57,10 +57,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Luceva2002">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/luca-evangelista-91a2101a3/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>

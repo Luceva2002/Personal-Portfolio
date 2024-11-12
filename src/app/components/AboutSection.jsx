@@ -52,10 +52,10 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center pt-24 px-4 xl:gap-16 sm:py-12 xl:px-16">
-        <Image src="" width={500} height={500} />
+      <div className="md:grid md:grid-cols-2 gap-8 items-center lg:pt-20 px-4 xl:gap-16 sm:py-14 xl:px-16">
+        <Image src="/aboutme.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
