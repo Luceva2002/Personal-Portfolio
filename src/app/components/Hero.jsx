@@ -37,8 +37,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Welcome to my portfolio! Here, you’ll find a showcase of my journey,
+          <br /> skills, and the projects I'm passionate about. 
+          <br />Dive in and explore what I love to create!
           </p>
           <div>
             <Link
@@ -48,7 +49,8 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              download
+              href="./CVLuceva.png"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 hover:bg-slate-800 text-[#3193c4] mt-3"
             >
               <span className="block bg-[#ffffffff] hover:bg-slate-800 rounded-full px-5 py-2">
