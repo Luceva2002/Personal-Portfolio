@@ -77,6 +77,10 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
+      <br /><br /><br /><br /><br />
+      <div className="w-full max-w-xs mx-auto an-500 border-2 italic font-semibold text-center py-4 px-6 rounded-md text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+      REALIZED BY USING NEXT.JS
+    </div>
     </section>
   );
 };
