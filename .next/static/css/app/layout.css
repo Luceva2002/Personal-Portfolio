@@ -759,6 +759,15 @@ video {
 .max-w-md {
   max-width: 28rem;
 }
+.flex-auto {
+  flex: 1 1 auto;
+}
+.flex-initial {
+  flex: 0 1 auto;
+}
+.flex-grow-0 {
+  flex-grow: 0;
+}
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -793,6 +802,9 @@ video {
 }
 .items-center {
   align-items: center;
+}
+.justify-normal {
+  justify-content: normal;
 }
 .justify-start {
   justify-content: flex-start;
@@ -935,6 +947,10 @@ video {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -966,10 +982,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 .pb-6 {
   padding-bottom: 1.5rem;
@@ -1234,6 +1246,10 @@ body {
     flex-direction: row;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -1242,6 +1258,11 @@ body {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:text-5xl {
