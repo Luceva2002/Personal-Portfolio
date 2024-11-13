@@ -14,7 +14,7 @@ const TAB_DATA = [
         <li>C</li>
         <li>Tailwind</li>
         <li>Photoshop</li>
-        <li>Office</li>
+        <li>Wordpress</li>
       </ul>
     ),
   },
