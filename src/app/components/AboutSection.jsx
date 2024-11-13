@@ -11,10 +11,10 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Angular</li>
-        <li>C</li>
         <li>Tailwind</li>
         <li>Photoshop</li>
         <li>Wordpress</li>
+        <li>C</li>
       </ul>
     ),
   },
@@ -24,7 +24,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Liceo Cavour</li>
-        <li>electronic engineer</li>
+        <li>Electronic Engineer Roma 3 University</li>
         <li>42RomaLuiss</li>
         <li>Synergica Tech</li>
       </ul>
