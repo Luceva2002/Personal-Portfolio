@@ -47,7 +47,7 @@ const EmailSection = () => {
       className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative px-10 pt-20"
     >
       <div className="">
-        <h1 className="text-[40px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-6">
+        <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-6 ">
         Let&apos;s Connect
         </h1>
         <p className="text-[#ADB7BE] mb-4 max-w-md">

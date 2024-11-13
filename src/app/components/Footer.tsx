@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="w-full flex flex-col items-center justify-center m-auto">
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 
-                <div className="min-w-[200px] h-auto flex flex-col items-start justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-center">
                     <h1 className="font-bold text-[16px] py-5 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Social Media</h1>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
@@ -30,7 +30,7 @@ const Footer = () => {
                         <a href="https://www.instagram.com/luc4_evangelist4/"><span className="text-[15px] ml-[6px]">Instagram</span> </a>
                     </p>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-start justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-center">
                     <h1 className="font-bold text-[16px] py-5 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Informations</h1>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <span className="text-[15px] ml-[6px]">3457656206</span>    
