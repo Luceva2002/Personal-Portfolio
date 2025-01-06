@@ -827,12 +827,6 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
-.text-ellipsis {
-  text-overflow: ellipsis;
-}
-.text-pretty {
-  text-wrap: pretty;
-}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -848,9 +842,6 @@ video {
 .border {
   border-width: 1px;
 }
-.border-4 {
-  border-width: 4px;
-}
 .border-2 {
   border-width: 2px;
 }
@@ -861,10 +852,6 @@ video {
 .border-slate-200 {
   --tw-border-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-border-opacity));
-}
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-\[\#060b24\] {
   --tw-bg-opacity: 1;
@@ -1007,9 +994,6 @@ video {
 }
 .pt-5 {
   padding-top: 1.25rem;
-}
-.pt-1 {
-  padding-top: 0.25rem;
 }
 .text-left {
   text-align: left;
