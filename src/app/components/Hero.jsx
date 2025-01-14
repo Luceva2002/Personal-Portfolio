@@ -37,10 +37,9 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome to my portfolio! Here, you’ll find a showcase of my journey,
-          <br /> skills, and the projects I'm passionate about. 
-          <br />Dive in and explore what I love to create!
+          <p className="text-[#ADB7BE] text-base sm:text-lg ml-2 mb-6 lg:text-xl text-left">
+          Welcome to my portfolio!
+          <br />Dive in and explore what I love to create ; )
           </p>
           <div>
             <Link
@@ -77,10 +76,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
-      <br /><br /><br /><br /><br />
-      <div className="w-full max-w-xs mx-auto an-500 border-2 italic font-semibold text-center py-4 px-6 rounded-md text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-      REALIZED BY USING NEXT.JS
-    </div>
+      <br /><br />
     </section>
   );
 };

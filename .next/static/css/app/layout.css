@@ -702,6 +702,21 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.ml-8 {
+  margin-left: 2rem;
+}
+.ml-7 {
+  margin-left: 1.75rem;
+}
+.ml-5 {
+  margin-left: 1.25rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
 .block {
   display: block;
 }
@@ -820,6 +835,9 @@ video {
 }
 .place-self-center {
   place-self: center;
+}
+.justify-self-auto {
+  justify-self: auto;
 }
 .justify-self-start {
   justify-self: start;
@@ -1000,6 +1018,9 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.align-baseline {
+  vertical-align: baseline;
 }
 .text-2xl {
   font-size: 1.5rem;

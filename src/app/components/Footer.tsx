@@ -47,9 +47,14 @@ const Footer = () => {
 
             <br />
 
-            <div className="mb-[20px] text-[15px] text-center text-xl pt-5">
+            <div className="w-full max-w-xs mx-auto an-500 italic font-semibold text-center py-4 px-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            REALIZED BY USING NEXT.JS
+            </div>
+
+            <div className="mb-[20px] text-[15px] text-xl pt-5 text-left">
                 &copy; Luca Evangelista Inc. All rights reserved
             </div>
+
         </div>
     </div>
   )
