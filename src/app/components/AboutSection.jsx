@@ -24,7 +24,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Liceo Cavour</li>
-        <li>Electronic Engineer Roma 3 University</li>
         <li>42RomaLuiss</li>
         <li>Synergica Tech</li>
       </ul>
@@ -61,7 +60,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am an electronic engineering student with strong language, interpersonal, and organizational skills, with a natural ability to empathize. Through my experience at 42 Roma Luiss, I’ve gained skills in problem-solving, teamwork, and a solid foundation in computer science. I am highly motivated for personal growth and open to new professional opportunities.
+          I am an coding student with strong language, interpersonal, and organizational skills, with a natural ability to empathize. Through my experience at 42 Roma Luiss, I’ve gained skills in problem-solving, teamwork, and a solid foundation in computer science. I am highly motivated for personal growth and open to new professional opportunities.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
